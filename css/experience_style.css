@@ -1,0 +1,336 @@
+@font-face{
+	font-family: 'Raleway-Light';
+	src: url('../Raleway/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: 'Raleway-Bold';
+	src: url('../Raleway/Raleway-Bold.ttf');
+}
+
+body{
+	font-family: 'Raleway-Light';
+	font-size: 14px;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+	background-color:white;
+}
+
+#experience{
+	height: 2000px;
+}
+
+/* Global */
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/* Header */
+header {
+	background: #212c37;
+	height: 45px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header li{
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+
+header ul{
+	padding: 10px;
+	margin: 0;
+}
+
+header #tabs{
+	text-align: center;
+}
+
+header .highlight, header .current a{
+	color:#57bcdb;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #57bcdb;
+	font-wieght: bold;
+}
+
+#exp_heading_1 {
+	text-align: center;
+}
+
+#exp_heading_1 h1{
+	font-size: 40px;
+	margin-bottom: 0;
+	font-family: 'Raleway-Light';
+	font-weight: normal;
+	color: #555555;
+}
+
+#exp_heading_2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#exp_heading_2  h2{
+	text-align: center;
+	font-size: 24px;
+	color: #555555;
+	font-weight: normal;
+}
+
+/* Text */
+#experience #exp_text {
+	height: 100%;
+	width: 60%;
+	float:left;
+	margin-top:0;
+}
+
+#experience #exp_text #nycdoe{
+	height:auto;
+	width:auto;
+	margin-left: 25%;
+	margin-bottom: 125;
+	background: #f2f2f2;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_text #nycdoe h1{
+	color: #555555;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+	font-family: 'Raleway-Bold';
+	line-height: 1.5;
+}
+
+#experience #exp_text #nycdoe h2{
+	color: #57bcdb;
+	font-size: 24px;
+	font-weight: strong;
+	font-style: italic;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+}
+
+#experience #exp_text #nycdoe ul{
+	color: #555555;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:40;
+}
+
+#experience #exp_text #nycdoe li{
+	margin-bottom:20;
+}
+
+#experience #exp_text #nycdoe #date{
+	color: #555555;
+	font-size: 20px;
+	font-weight: strong;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	font-style: normal;
+	font-family: 'Raleway-Bold';
+}
+
+#experience #exp_text #hcc{
+	height:auto;
+	width:auto;
+	margin-left: 25%;
+	margin-bottom: 125;
+	background: #f2f2f2;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_text #hcc h1{
+	color: #555555;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+	font-family: 'Raleway-Bold';
+	line-height: 1.5;
+}
+
+#experience #exp_text #hcc h2{
+	color: #57bcdb;
+	font-size: 24px;
+	font-weight: strong;
+	font-style: italic;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+}
+
+#experience #exp_text #hcc ul{
+	color: #555555;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:40;
+}
+
+#experience #exp_text #hcc li{
+	margin-bottom:20;
+}
+
+#experience #exp_text #hcc #date{
+	color: #555555;
+	font-size: 20px;
+	font-weight: strong;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	font-style: normal;
+	font-family: 'Raleway-Bold';
+}
+
+#experience #exp_text #wal{
+	height:auto;
+	width:auto;
+	margin-left: 25%;
+	margin-bottom: 10%;
+	background: #f2f2f2;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_text #wal h1{
+	color: #555555;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+	font-family: 'Raleway-Bold';
+	line-height: 1.5;
+}
+
+#experience #exp_text #wal h2{
+	color: #57bcdb;
+	font-size: 24px;
+	font-weight: strong;
+	font-style: italic;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+}
+
+#experience #exp_text #wal ul{
+	color: #555555;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:40;
+}
+
+#experience #exp_text #wal li{
+	margin-bottom:20;
+}
+
+#experience #exp_text #wal #date{
+	color: #555555;
+	font-size: 20px;
+	font-weight: strong;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	font-style: normal;
+	font-family: 'Raleway-Bold';
+}
+
+/* Image */
+
+#experience #exp_image {
+	height: 100%;
+	width: 40%;
+	float: right;
+}
+
+#experience #exp_image #nycdoe{
+	height:auto;
+	width:auto;
+	margin-right: 25%;
+	margin-bottom: 30%;
+	background: white;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_image #nycdoe img{
+	height:200;
+	width:200;
+	margin-top: 50;
+	margin-left: 100;
+}
+
+#experience #exp_image #hcc{
+	height:auto;
+	width:auto;
+	margin-right: 25%;
+	margin-bottom: 15%;
+	background: white;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_image #hcc img{
+	height:200;
+	width:200;
+	margin-top: 50;
+	margin-left: 100;
+}
+
+#experience #exp_image #wal{
+	height:auto;
+	width:auto;
+	margin-right: 25%;
+	margin-bottom: 10%;
+	background: white;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_image #wal img{
+	height:200;
+	width:200;
+	margin-top: 175;
+	margin-left: 100;
+}
+#vol_heading_1 {
+	text-align: center;
+}
+
+#vol_heading_1 h1{
+	font-size: 40px;
+	margin-bottom: 0;
+	font-family: 'Raleway-Light';
+	font-weight: normal;
+	color: #555555;
+}
+
+footer {
+	background: #212c37;
+	color: white;
+	font-size: 14;
+	text-align: center;
+	height: 45px;
+	padding: 3 0 0 0;
+}
+
+

@@ -1,0 +1,193 @@
+@font-face{
+	font-family: 'Raleway-Light';
+	src: url('../Raleway/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: 'Raleway-Bold';
+	src: url('../Raleway/Raleway-Bold.ttf');
+}
+
+body{
+	font-family: 'Raleway-Light';
+	font-size: 14px;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+	background-color:#fafafa;
+	height: 1500px;
+}
+
+/* Global */
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/* Header */
+header {
+	background: #212c37;
+	height: 45px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header li{
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+
+header ul{
+	padding: 10px;
+	margin: 0;
+}
+
+header #tabs{
+	text-align: center;
+}
+
+header .highlight, header .current a{
+	color:#57bcdb;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #57bcdb;
+	font-wieght: bold;
+}
+
+#contact_heading_1 {
+	text-align: center;
+}
+
+#contact_heading_1 h1{
+	font-size: 40px;
+	margin-bottom: 0;
+	font-family: 'Raleway-Light';
+	font-weight: normal;
+	color: #212c37;
+}
+
+#contact_heading_2 {
+	text-align: center;
+}
+
+#contact_heading_2 h2{
+	font-size: 24px;
+	margin-bottom: 0;
+	font-family: 'Raleway-Light';
+	font-weight: normal;
+	color: #212c37;
+}
+
+#contact_image_1 {
+	height: 250;
+	width: 50%;
+	float:left;
+	margin-top: 100;
+}
+
+#contact_image_1  #position_1{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 250;
+	width: 250;
+	float:right;
+}
+
+#contact_image_1  #position_1 img{
+	height: 100%;
+	width: 100%;
+}
+
+#contact_image_1_info{
+	height: 250;
+	width: 50%;
+	float:left;
+}
+
+#contact_image_1_info  #pos_1{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 250;
+	width: 250;
+	float:right;
+}
+
+#contact_image_1_info  #pos_1 p{
+	margin-top: 20;
+	font-size: 24;
+	text-align: center;
+	color: #212c37;
+}
+
+#contact_image_2 {
+	height: 250;
+	width: 50%;
+	float:right;
+	margin-top: 100;
+}
+
+#contact_image_2  #position_2{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 250;
+	width: 250;
+	float:left;
+}
+
+#contact_image_2 #position_2  img{
+	height: 100%;
+	width: 100%;
+}
+
+#contact_image_2_info{
+	height: 250;
+	width: 50%;
+	float:left;
+}
+
+#contact_image_2_info  #pos_2{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 250;
+	width: 250;
+	float:left;
+}
+
+#contact_image_2_info  #pos_2 .button_li{
+	height:60px;
+	width: auto;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 20px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 1%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+
+#contact_image_2_info  #pos_2  .button_li:hover{
+	background:#212c37;
+	color: #57bcdb;
+}
+
+footer {
+	background: #212c37;
+	color: white;
+	font-size: 14;
+	text-align: center;
+	height: 45px;
+	padding: 3 0 0 0;
+}

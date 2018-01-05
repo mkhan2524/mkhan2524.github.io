@@ -1,0 +1,731 @@
+@font-face{
+	font-family: 'Raleway-Light';
+	src: url('../Raleway/Raleway-Light.ttf');
+}
+
+body{
+	font-family: 'Raleway-Light';
+	font-size: 14px;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+	background-color:white;
+}
+
+#projects{
+	height: 4000px;
+}
+
+/* Global */
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/* Header */
+header {
+	background: #304050;
+	height: 45px;
+}
+
+header a{
+	color: #57bcdb;
+	text-decoration: none;
+}
+
+header li{
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+
+header ul{
+	padding: 10px;
+	margin: 0;
+}
+
+header #tabs{
+	text-align: center;
+}
+
+header .highlight, header .current a{
+	color:#57bcdb;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #57bcdb;
+	font-wieght: bold;
+}
+
+#pro_intro{
+	text-align: center;
+}
+#pro_intro h1{
+	font-size: 40px;
+	font-family: 'Raleway-Light';
+	font-weight: normal;
+	color: #212c37;
+}
+
+#pro_intro  #pro_intro2 p{
+	text-align: center;
+	font-size: 24px;
+	color: #212c37;
+	margin-top:0;
+	margin-bottom: 50px;
+	font-weight: normal;
+}
+
+/* Projects */
+#projects #image {
+	height: 100%;
+	width: 60%;
+	float:left;
+	
+}
+
+#projects #text {
+	height: 100%;
+	width: 40%;
+	float: right;
+}
+
+/* ALU */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+	margin-left: 100px;
+}
+
+#projects #image  #box #alu {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 50px;
+	background: #304050;
+}
+
+#projects #image #box #alu img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #alu{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 50px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #alu h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:20%;
+	margin-bottom:0;
+}
+
+#projects #text #box #alu h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;	
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#projects #text #box #alu p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;	
+}
+
+/* Button */
+.button_alu{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_alu:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* PCB */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+	margin-left: 100px;
+}
+
+#projects #image  #box #pcb {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 50px;
+	background: #304050;
+}
+
+#projects #image #box #pcb img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #pcb{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 50px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #pcb h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:20%;
+	margin-bottom:0;
+}
+
+#projects #text #box #pcb h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;	
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#projects #text #box #pcb p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;	
+}
+
+/* Button */
+.button_pcb{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_pcb:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* Snake */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#projects #image  #box #snake {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	background: #304050;
+}
+
+#projects #image #box #snake img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+	
+}
+
+#projects #text #box #snake{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #snake h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:25%;
+	margin-bottom:0;
+}
+
+#projects #text #box #snake h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+
+#projects #text #box #snake p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* Button */
+.button_snake{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_snake:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* GPA */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#projects #image  #box #gpa {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	background: #304050;
+	
+}
+
+#projects #image #box #gpa img{
+	max-height: 100%;
+	max-width: 100%;
+	padding: 0 0 0 25%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #gpa{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #gpa h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:20%;
+	margin-bottom:0;
+}
+
+#projects #text #box #gpa h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+
+#projects #text #box #gpa p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* Button */
+.button_gpa{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_gpa:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* Clock */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#projects #image  #box #clock {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	background: #304050;
+}
+
+#projects #image #box #clock img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #clock{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #clock h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:20%;
+	margin-bottom:0;
+}
+
+#projects #text #box #clock h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;	
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#projects #text #box #clock p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* Button */
+.button_clock{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_clock:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* Amp */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#projects #image  #box #amp {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	background: #304050;
+}
+
+#projects #image #box #amp img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #amp{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #amp h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:10%;
+	margin-bottom:0;
+}
+
+#projects #text #box #amp h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;	
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#projects #text #box #amp p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* Button */
+.button_amp{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_amp:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+/* Opamp */
+/* Image */
+#projects #image  #box{
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#projects #image  #box #opamp {
+	float: right;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	background: #304050;
+}
+
+#projects #image #box #opamp img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* Text */
+#projects #text  #box{
+	height: 100%;
+	width: 100%;
+	float:right;
+}
+
+#projects #text #box #opamp{
+	float:left;
+	height: 500px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 0 15 0 15;
+	background: #304050;
+}
+
+#projects #text #box #opamp h2{
+	color: #57bcdb;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:25%;
+	margin-bottom:0;
+}
+
+#projects #text #box #opamp h3{
+	color: #919191;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;	
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#projects #text #box #opamp p{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	width: 70%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* Button */
+.button_opamp{
+	height:60px;
+	background: #57bcdb;
+	border: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;	
+	font-size: 25px;
+	font-family: 'Raleway-Light';
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.button_opamp:hover{
+	background:white;
+	color: #57bcdb;
+}
+
+footer {
+	background: #212c37;
+	color: white;
+	font-size: 14;
+	text-align: center;
+	height: 45px;
+	padding: 3 0 0 0;
+}

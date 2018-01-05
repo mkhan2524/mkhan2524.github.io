@@ -57,37 +57,39 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-	min-height: 400px;
-	height: 1050px;
+	background: #212c37;
+	min-height: 100px;
+	height: 250px;
 	width: auto;
-	background: url('../img/showcase.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: white;
+	position: relative; top: 10px; left: 510px;
+	content: url('../img/image.jpg');
+	
 }
 
-#showcase h1{
+#hi h1{
 	margin-top: 300px;
 	font-size: 42px;
 	line-height: 1.25;
 	margin-bottom: 10px;
 	font-family: 'Raleway-Light';
 	font-weight: normal;
+	text-align: center;
 	color: #57bcdb;
 }
 
-#showcase #hi{
+ #hi{
 	margin-top: 50px;
+	text-align: center;
 }
 
-#showcase p{
+ p{
 	font-size: 22px;
 	line-height: 1.5;
 }
 
-#showcase #resume_button{
+#resume_button{
 	margin-top: 75px;
+	text-align: center;
 }
 
 .button_1{
