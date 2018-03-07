@@ -95,6 +95,60 @@ header a:hover{
 	margin-top:0;
 }
 
+#experience #exp_text #iaasr{
+	height:auto;
+	width:auto;
+	margin-left: 25%;
+	margin-bottom: 125;
+	background: #f2f2f2;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_text #iaasr h1{
+	color: #555555;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+	font-family: 'Raleway-Bold';
+	line-height: 1.5;
+}
+
+#experience #exp_text #iaasr h2{
+	color: #57bcdb;
+	font-size: 24px;
+	font-weight: strong;
+	font-style: italic;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10;
+}
+
+#experience #exp_text #iaasr ul{
+	color: #555555;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:40;
+}
+
+#experience #exp_text #iaasr li{
+	margin-bottom:20;
+}
+
+#experience #exp_text #iaasr #date{
+	color: #555555;
+	font-size: 20px;
+	font-weight: strong;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:0;
+	font-style: normal;
+	font-family: 'Raleway-Bold';
+}
+
 #experience #exp_text #nycdoe{
 	height:auto;
 	width:auto;
