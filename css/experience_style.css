@@ -319,6 +319,22 @@ header a:hover{
 	float: right;
 }
 
+#experience #exp_image #iaasr{
+	height:auto;
+	width:auto;
+	margin-right: 25%;
+	margin-bottom: 30%;
+	background: white;
+	padding: 5 5 5 5;
+}
+
+#experience #exp_image #iaasr img{
+	height:200;
+	width:200;
+	margin-top: 50;
+	margin-left: 100;
+}
+
 #experience #exp_image #nycdoe{
 	height:auto;
 	width:auto;
